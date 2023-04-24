@@ -1,0 +1,260 @@
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                    font-family: Proxima Nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+                                    box-sizing: border-box;
+                                }
+                                
+                                @font-face {
+                                    font-family: 'Gilmer';
+                                    src: url('Gilmer Outline.otf') format('opentype');
+                                    font-weight: normal;
+                                    font-style: normal;
+                                }
+                                
+                                .header-principal {
+                                    position: fixed;
+                                    width: 100%;
+                                    display: inline;
+                                    z-index: 1;
+                                    backdrop-filter: blur(700px);
+                                    -webkit-backdrop-filter: blur(40px);
+                                    filter: brightness(1.0);
+                                    z-index: 7;
+                                }
+                                
+                                .header-principal .logo {
+                                    height: 60px;
+                                    width: 120px;
+                                    background-size: contain;
+                                    background-position: 50%;
+                                    background-repeat: no-repeat;
+                                    cursor: pointer;
+                                    margin-left: 40px;
+                                    background-image: url(https://lf16-fe.resso.me/obj/anote-fe/socrates/home-web/static/media/logo.21896d96.png);
+                                }
+                                
+                                nav {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding: 10px;
+                                    z-index: 1;
+                                    backdrop-filter: blur(10px);
+                                    -webkit-backdrop-filter: blur(10px);
+                                }
+                                
+                                video {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    z-index: -1;
+                                    filter: brightness(0.3);
+                                }
+                                
+                                .button-nav {
+                                    display: flex;
+                                    list-style-type: none;
+                                }
+                                
+                                .button-nav a {
+                                    font-size: 18px;
+                                    color: hsla(0, 0%, 100%, .7);
+                                    font-weight: 500;
+                                    display: block;
+                                    padding: 25px;
+                                    text-decoration: none;
+                                    margin-right: 20px;
+                                    backdrop-filter: blur(20px);
+                                }
+                                
+                                video {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    z-index: -1;
+                                }
+                                
+                                .video-background {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index: -1;
+                                }
+                                
+                                .site-view {
+                                    width: 90%;
+                                    height: 100%;
+                                }
+                                
+                                .phone {
+                                    background-image: url(https://lf16-fe.resso.me/obj/anote-fe/socrates/home-web/static/media/phone-device-sm.0454fdc8.png);
+                                    position: relative;
+                                    width: 359px;
+                                    height: 731px;
+                                    background-repeat: no-repeat;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    left: 500px;
+                                    top: 150px;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .phone-background {
+                                    position: relative;
+                                    width: 347px;
+                                    height: 432px;
+                                    padding-bottom: 198.62%;
+                                    border-radius: 48px;
+                                    left: 2px;
+                                }
+                                
+                                .phone-background video {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: inherit;
+                                    filter: brightness(0.7);
+                                    z-index: 3;
+                                    background-position: 50%;
+                                }
+                                
+                                .phone-botton {
+                                    position: absolute;
+                                    margin-top: 475px;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-image: url(https://lf16-fe.resso.me/obj/anote-fe/socrates/home-web/static/media/phone-ui.a364daa3.png);
+                                    background-repeat: no-repeat;
+                                    background-size: contain;
+                                    z-index: 3;
+                                }
+                                
+                                .phone .phone-reflexo {
+                                    z-index: 4;
+                                    background-image: url("https://lf16-fe.resso.me/obj/anote-fe/socrates/home-web/static/media/phone-light.048e893e.png");
+                                    transition: all .4s;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-size: contain;
+                                    background-position: 50%;
+                                    background-repeat: no-repeat
+                                }
+                                
+                                .text-site {
+                                    position: relative;
+                                    width: 90%;
+                                    padding-left: 20%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    color: rgb(255, 255, 255);
+                                    top: 50%;
+                                    transform: translateY(-40%);
+                                    display: flex;
+                                    z-index: 3;
+                                }
+                                
+                                .text-site .text-one .title span {
+                                    font-family: Gilmer;
+                                    font-size: 132px;
+                                    opacity: .8;
+                                    line-height: 1;
+                                }
+                                
+                                .text-one p {
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                    opacity: .7;
+                                    margin-top: 70px;
+                                    font-weight: 400;
+                                }
+                                
+                                .text-site .text-one .sub-title span {
+                                    font-size: 140px;
+                                    line-height: 1;
+                                }
+                                
+                                .text-site .text-one {
+                                    padding-left: 50%;
+                                    padding-bottom: 80%;
+                                }
+                                
+                                @media only screen and (max-width: 1800px) {
+                                    .text-one .sub-title {
+                                        font-weight: 600;
+                                        font-size: 42px;
+                                        line-height: 42px;
+                                        margin: 0;
+                                        opacity: 1;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1020px) {
+                                    .site-view {
+                                        flex-direction: column;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1800px) {
+                                    .phone .phone-background {
+                                        justify-content: flex-start;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1800px) {
+                                    .phone {
+                                        left: 20px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 1200px) {
+                                    .text-site {
+                                        width: 100%;
+                                        padding-left: 0;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 1200px) {
+                                    .text-site .text-one .title span {
+                                        font-size: 60px;
+                                        left: 70px;
+                                        top: 50px;
+                                    }
+                                    .text-site .text-one .sub-title span {
+                                        font-size: 30px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 1200px) {
+                                    .text-one p {
+                                        margin-top: 30px;
+                                    }
+                                    .text-site .text-one {
+                                        padding-bottom: 60%;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 768px) {
+                                    nav {
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        padding: 10px;
+                                    }
+                                }
